@@ -62,4 +62,4 @@ Expound the solution ...
 
 ### External Donates
 
-- The [Project Donate Links](https://mminail.github.io/Browser/Donate-Browser-Links.htm){:title="Click to Visit the Donate Links page of the Browser Lessons Project at GitHub pages"}{:target="_blank"} page of the Browser Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+- The [Project Donate Links](https://mminail.github.io/Donate/Source-Donate-Links.htm){:title="Click to Visit the Source Links page of the Donate Lessons Project at GitHub pages"}{:target="_blank"} page of the Donate Lessons Project. Published by © 2000 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
