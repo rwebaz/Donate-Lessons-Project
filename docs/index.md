@@ -1,12 +1,12 @@
 ---
 title: Home Page
 layout: default
-excerpt: Shell tags and Shell statements mimic underlying Javascript methods ...
-version: Index Template md Dtd 02-06-18
+excerpt: Donate tags and Donate statements mimic underlying Javascript methods ...
+version: Index Template md Dtd 02-07-18
 navigation_weight: 1
 categories: donate
 ---
-{% comment %}{% raw %}{% include page-banner-blank.md %}{% endcomment %}{% endraw %}
+{% comment %}{% raw %}{% include page-banner-blank.md %}{% endraw %}{% endcomment %}
 
 # Donate Lessons Project Home Page
 
@@ -58,8 +58,8 @@ Expound the solution ...
 
 {% include sources-and-uses.md %}
 
-### External Donates
+### External Sources
 
-- The [Project Donate Links](https://mminail.github.io/Donate/Source-Donate-Links.htm){:title="Click to Visit the Source Links page of the Donate Lessons Project at GitHub pages"}{:target="_blank"} page of the Donate Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+- The [Project Source Links](https://mminail.github.io/Donate/Source-Donate-Links.htm){:title="Click to Visit the Source Links page of the Donate Lessons Project at GitHub pages"}{:target="_blank"} page of the Donate Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
 
 **Note**. This page crafted with {{ page.version }}.
