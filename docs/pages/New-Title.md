@@ -5,6 +5,7 @@ excerpt: Gists can be embedded into Markdown (.md) pages ...
 version: Gist Page Template md Dtd 02-07-18
 navigation_weight: 8
 categories: donate
+raw: https://gist.githubusercontent.com/rwebaz/cee767ff589050e79c8d59edf6b7e084/raw/873984fc5a627828a88f797632ed87a3f6dc2777/Turning-Comments-Into-Gists.md
 ---
 # {{ page.title }}
 
@@ -14,7 +15,11 @@ categories: donate
 
 ## First Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+Solution to MD033 lint warning when embedding "script" tag from GitHub Gists in body of Markdown (.md) page  ...
+
+Create entry in `User Settings`, `Markdownlint Configuration Object` as follows:
+
+"MD033": {"allowed_elements": ["script"]} when crafting your page in Visual Studio Code.
 
 ## Import Code
 
@@ -110,7 +115,9 @@ Now, that's a cool feature.
 
 Makes me want to search ( discover ) other peoples' gists, or **OPG** and incorporate their "public" work into my full-blown working repos.
 
-"You can discover the PUBLIC gists others have created by going to the gist home page and clicking on the link `All Gists`."
+"You can discover the PUBLIC gists others have created by going to the gist home page and clicking on the link ...
+
+- [All Gists](https://gist.github.com/discover){:title='Click to Review the Discover Feature at GitHub Gists'}{:target='_blank'}."
 
 I suppose if I do find something beneficial, I can always ping-back, or cite that source if I do use the work in my full-blown working repos.
 
@@ -137,6 +144,11 @@ To change the default warning flag to accommodate the called contents of a `scri
 [1]: https://help.github.com/articles/about-gists/
 [2]: https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
 [3]: https://github.com/DavidAnson/markdownlint/commit/fb31bb5f350ce76550377c6d84b3834aee269ee8
+[4]: https://gist.github.com/discover
+
+## Permalink to this gist
+
+- The raw gist of [Turning Comments Into Gists]({{ page.raw }}){:title='Click to Visit the raw gist of Turning Comments Into Gists at GitHub Gists'}{:target='_blank'} at GitHub Gists.
 
 ### Raw Code Block
 
