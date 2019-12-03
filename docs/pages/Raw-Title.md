@@ -1,21 +1,23 @@
 ---
-title: New Title
+title: Raw Title
 layout: default
 excerpt: Gists can be embedded into Markdown (.md) pages ...
-version: Gist Page Template md Dtd 02-07-18
+hint: The Solution to the MD033 lint warning when embedding a script tag from GitHub Gists in the body of a Markdown page.
+repo: Donate-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
-categories: donate
+categories: page
 raw: https://gist.githubusercontent.com/rwebaz/cee767ff589050e79c8d59edf6b7e084/raw/873984fc5a627828a88f797632ed87a3f6dc2777/Turning-Comments-Into-Gists.md
 ---
-# {{ page.title }}
-
-{{ page.excerpt }}
-
 {% include toc.md %}
 
-## First Subtitle
+## Script Tag
 
-Solution to MD033 lint warning when embedding "script" tag from GitHub Gists in body of Markdown (.md) page  ...
+> **Hint**. {{ page.hint }}
+
+More to come ...
+
+### How to embed a script tag from GitHub Gists in the body of a Markdown page
 
 Create entry in `User Settings`, `Markdownlint Configuration Object` as follows:
 
@@ -150,18 +152,16 @@ To change the default warning flag to accommodate the called contents of a `scri
 
 - The raw gist of [Turning Comments Into Gists]({{ page.raw }}){:title='Click to Visit the raw gist of Turning Comments Into Gists at GitHub Gists'}{:target='_blank'} at GitHub Gists.
 
-### Raw Code Block
+## Last Subtitle
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+More to come ...
 
-{% include sources-and-uses.md %}
+***
 
-### External Sources
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-**Note**. This page crafted with {{ page.version }}.
+***
+
+{% include patreon-link.md %}
