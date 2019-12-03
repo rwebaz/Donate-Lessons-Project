@@ -1,7 +1,7 @@
 ---
-title: Donate Now
+title: Shell Gist
 layout: default
-excerpt: Place the introducing line of text ie.) the 'lead' here ...
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
 hint: Place the intro paragraph ie.) the 'hypothesis' here ...
 repo: Donate-Lessons-Project
 ver_date: 11-26-19
@@ -15,24 +15,6 @@ categories: page
 > **Hint**. {{ page.hint }}
 
 More to come ...
-
-Place the introducing line of text ie.) the 'tagline' here ...
-
-```liquid
-{% raw %}
-<pre class="flex-box">
-<span>Setting the time wrapper for the execution of a function ...</span>
-{% highlight html linenos %}
-console.time(programTimer,"Square It Time"); 
-var programTimer; {
-    Execute Function Inside This Code Block
-}
-console.timeEnd(programTimer,"Square It Time");
-{% endhighlight %}
-<span>Keep a-track of your coding time.</span>
-</pre>
-{% endraw %}
-```
 
 ## Last Subtitle
 
